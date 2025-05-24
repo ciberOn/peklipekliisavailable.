@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">Peklich</div>
+    </header>
+    <main class="main">
+        <div class="main_container">
+            <h2 class="title__game">Random integer</h2>
+            <p class="paragraph__game">Here you can get random number from 1 click on the button</p>
+            <button class="btn" id="btn">Get random int
+             <script>
+                const btn = document.getElementById("btn")
+                btn.addEventListener('click', () => {
+                    let randInt = Math.floor(Math.random() * 100)
+                    btn.innerText = randInt
+                })
+            </script>
+        </div>
+    </main>
+    <footer class="footer">
+        created by <i>Peklich</i> student's school "KiberOne" with technologies <b>JS HTML & CSS</b>
+    </footer>
+</body>
+
+</html>
+width:
+
+
+
+
+
